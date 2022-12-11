@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hospital</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Poppins:ital,wght@1,900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<link rel="stylesheet" href="css/styles.css" />
+
+
+</head>
+  <body style="background-color: #c3fff7;" >
+
+
+        <!-- Whatsapp contact button with logo -->
+
+<div class="row">
+    <div class="col-lg-6">
+       <a href="https://wa.me/+973123456789" target="_blank"> <img src='photo/whatsapp.png' class="whatsapp-logo"/></a>
+    </div>
+</div>
+
+
+
+
+          <!-- Top navigation panel Start -->
+
+          <nav class="navbar navbar-expand-lg" style="background-color: #000000; position: fixed; width:100%; z-index:2" data-aos="slide-up" data-aos-duration="1500">
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon" style="background-color:deepskyblue ;"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown" style="margin-right: 5%;">
+              <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item dropdown">
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    </div>
+                  </li>
+
+                <!-- Home Button -->
+
+                <li class="nav-item">
+                  <a class="nav-link"  style="color:dodgerblue ; font-size: 20px; font-weight: bold;" href="index.html"><span class="buttoncolor">Home</span></a>
+                </li>
+
+                <!-- Service Button -->
+
+                <li class="nav-item">
+                    <a class="nav-link" style="color:dodgerblue ; font-size: 20px; font-weight: bold;" href="services.html"><span class="buttoncolor">Services</span></a>
+                  </li>
+
+                  <!-- Doctors Button -->
+
+                <li class="nav-item">
+                  <a class="nav-link" style="color:dodgerblue ; font-size: 20px; font-weight: bold;" href="doctors.html"><span class="buttoncolor">Doctors</span></a>
+                </li>
+
+                <!-- Contact Button -->
+
+                <li class="nav-item">
+                  <a class="nav-link" style="color:dodgerblue ; font-size: 20px; font-weight: bold;" href="contact.html"><span class="buttoncolor">Contact Us</span></a>
+                </li>
+
+              </ul>
+            </div>
+          </nav>
+
+              <!-- Top navigation panel End -->
+
+  <br><br><br>
+
+      <!--Section: Contact v.2-->
+<section class="container" style="background-color: antiquewhite; border-radius: 20px; color: black; font-weight: bolder;">
+    <br><br><br>
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-12 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" placeholder="Name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" placeholder="Email" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" placeholder="Subject" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" placeholder="Enter Your Message Here" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <!-- <a class="btn btn-primary" type="button" desabled onclick="document.getElementById('contact-form').submit();">Send</a> -->
+                <a class="btn btn-primary">Send</a>
+            </div>
+            <br><br>
+            <div class="status"></div>
+        </div>
+
+    </div>
+
+  </section>
+  <!--Section: Contact v.2-->
+
+  <br><br><br>
+
+            <!-- Contact us start -->
+
+  <div class="container-fluid" data-aos="slide-up" data-aos-duration="1000" style="background-color: #1c2b32; color: #ffffff;">
+    <div class="row">
+
+      <div style="text-align: center;">
+        <br><br>
+        <button type="button" class="btn btn-primary btn-lg" style="margin-left:20px ; text-align: center; font-size: 30px; font-weight: bold; color:rgb(255, 255, 255);" data-aos="slide-up" data-aos-duration="1000"><span class="buttoncolor3">GET IN TOUCH WITH US  </span> </button>
+
+      <br>
+    </div>
+
+    <br>
+
+            <!-- Address section -->
+
+      <div class="col-lg-4 col-md-6 col-sm-6">
+
+        <div style="width: 100%; background-color:#0dcaf000; text-align: center; border-radius: 30px;">
+          <br><br>
+          <img src="photo/map-pin.png" alt="Card image cap" width="200px" height="200px">
+          <div class="card-body" >
+            <h1 style="color: #7900f5; font-weight:bold ; text-align:center ;">Address</h1>
+            <br>
+
+            <h5 style="text-align:center ;">Juffair</h5>
+            <h5 style="text-align:center ;">Manama</h5>
+            <h5 style="text-align:center ;">Bahrain</h5>
+            <br>
+          </div>
+        </div>
+        <br><br>
+      </div>
+
+                <!-- Email Section  -->
+
+
+      <div class="col-lg-4 col-md-6 col-sm-6">
+
+        <div style="width: 100%; background-color:#0dcaf000; text-align: center;  border-radius: 30px;">
+          <br><br>
+          <img src="photo/mail.png" alt="Card image cap" width="200px" height="200px">
+          <div class="card-body" >
+            <h1 style="color: #7900f5; font-weight:bold ; text-align:center ;">Email</h1>
+            <br>
+            <h5 style="text-align:center ;">abc@xyz.com</h5>
+            <br><br>
+          </div>
+        </div>
+        <br><br>
+      </div>
+
+                <!-- Phone Section  -->
+
+      <div class="col-lg-4 col-md-6 col-sm-6">
+
+        <div style="width: 100%; background-color:#0dcaf000; text-align: center;  border-radius: 30px;">
+          <br><br>
+          <img src="photo/call.png" alt="Card image cap" width="200px" height="200px">
+          <div class="card-body" >
+            <h1 style="color: #7900f5; font-weight:bold ; text-align:center ;">Phone</h1>
+            <br>
+            <h5 style="text-align:center ;">+973123456789</h5>
+            <br><br><br>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+          <!-- ======= Footer ======= -->
+          <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
+            <br><br><br>
+
+            <div class="footer-top" style="background-color:#121c21 ; color: white;">
+                <br><br>
+              <div class="container">
+                <div class="row">
+
+                  <div class="col-lg-4 col-md-6 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                      <li><i class="bx bx-chevron-right"></i> <a href="index.html" >Home</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="services.html" >Services</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="doctors.html">Doctors</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="contact.html" >Contact Us</a></li>
+                    </ul>
+                    <br><br>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 footer-links">
+                    <h4>Our Services</h4>
+                    <ul>
+                      <li>Emergecy Admission</li>
+                      <li>I.C.U.</li>
+                      <li>Large numbers of beds</li>
+
+                    </ul>
+                    <br><br>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>
+                      Juffair<br>
+                      Manama<br>
+                      Bahrain<br><br>
+                      <strong>Phone:</strong>+973123456789<br>
+                      <strong>Email:</strong> abc@xyz.com<br>
+                    </p>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+          <!-- End Footer -->
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="ajax.googleapis.com/ajax/libs/jquery/2.1.3/…> <script src="maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/…></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 150,
+
+    });
+  </script>
+
+</body>
+</html>

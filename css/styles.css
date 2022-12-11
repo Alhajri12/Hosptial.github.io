@@ -1,0 +1,167 @@
+/* 
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(17, 173, 0);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
+/* cards */
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 10px 10px 5px 5px rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  width: 15%;
+  height: 40%;
+  margin-top: 5%;
+  border:4px solid #04AA6D;
+  border-radius: 20px;
+  padding: 10px;
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+
+.card2 {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 10px 10px 5px 5px rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  width: 20%;
+  height: 50%;
+  margin-top: 5%;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+} */
+
+
+
+/* New Styles */
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+}
+
+.whatsapp{
+  top:90vh;
+  left: 92vw;
+    /* position: absolute; */
+  position: fixed;
+}
+
+
+#startup{
+  font-family: 'Nosifer', cursive;
+font-family: 'Poppins', sans-serif;
+}
+
+.whatsapp-logo{
+  position:fixed;
+  height: 100px;
+  width: 100px;
+  bottom: 20px;
+  right: 0px;
+
+  z-index: 3;
+}
+
+.box1{
+  box-shadow: 1px 3px 18px 20px rgb(0 0 0 / 30%);
+  background-color:#0dcaf000;
+  border: 5px solid rgb(0, 253, 203);
+  border-radius: 20px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  
+}
+
+.box1:hover{
+
+  box-shadow: 1px 3px 18px 20px rgb(0, 255, 255);
+  background-color:#0dcaf000;
+  border: 5px solid rgb(34, 108, 255);
+  border-radius: 20px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.buttoncolor:hover{
+
+color: deeppink;
+font-size: 30px;
+}  
+
+
+.buttoncolor2:hover{
+
+font-size: 25px;
+}
+
+.buttoncolor3:hover{
+
+font-size: 35px;
+}
+
+.buttoncolor4:hover{
+
+font-size: 45px;
+}
+
+.progressdiv:hover{
+
+color: deeppink;
+font-size: 30px;
+}
